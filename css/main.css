@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+body {
+  background-color: #f1f2f3;
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%232acfcf' fill-opacity='0.44' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"); */
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.hero-heading {
+  margin-top: 40px;
+  line-height: 2.5rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.hero-paragraph {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form-container {
+  margin-top: 50px;
+  background: rgb(59, 48, 84) url('../img/bg-shorten-mobile.svg') right top
+    no-repeat;
+  border-radius: 10px;
+  padding: 25px 0;
+  text-align: center;
+}
+
+input[type='text'] {
+  width: 90%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+}
+
+.btn {
+  width: 90%;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(42, 207, 207);
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(42, 190, 207);
+}
+
+/* input[type='submit'] {
+  width: 90%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+} */
